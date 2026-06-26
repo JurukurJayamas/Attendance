@@ -88,13 +88,13 @@ body::after {
     <p id="gpsOutStatus" class="muted"></p>
   </div>
   <div>
-    <label>Gambar Check-in</label>
-    <input id="photoInInput" type="file" accept="image/*" capture="environment" onchange="previewPhoto(event,'in')">
+    <label>Gambar Check-in (Camera / Gallery)</label>
+    <input id="photoInInput" type="file" accept="image/*" onchange="previewPhoto(event,'in')">
     <img id="previewIn" class="photo hidden">
   </div>
   <div>
     <label>Gambar Check-out</label>
-    <input id="photoOutInput" type="file" accept="image/*" capture="environment" onchange="previewPhoto(event,'out')">
+    <input id="photoOutInput" type="file" accept="image/*" capture="environment">
     <img id="previewOut" class="photo hidden">
   </div>
 </div>
